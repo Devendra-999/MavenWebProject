@@ -25,8 +25,8 @@ public class SampleController {
         int a = 20;
 System.out.println("Inside printAddress method");
         JSONObject js = new JSONObject();
-        js.put("Name", "KC Technologies, DevOps training Institute");
-        js.put("Address", " Marathahalli ");
+        js.put("Name", "Profile Data");
+        js.put("Address", " Hyderabada ");
 
         return js.toString();
 
